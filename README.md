@@ -43,7 +43,7 @@ This lets us workaround that.
 ## Create release
 
 ```bash
-VERSION=1.0.1
+VERSION=1.0.0
 
 mkdir -p release/bosh_multi_runner-${VERSION}.linux-amd64
 GOOS=linux GOARCH=amd64 go build -o release/bosh_multi_runner-${VERSION}.linux-amd64/bosh_multi_runner bosh_multi_runner.go
